@@ -147,6 +147,9 @@ height: auto;
 width: auto;
 margin: 3px 0;
 }
+
+p {font-size: 1em;}
+
 }
 
 .month-label {
