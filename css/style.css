@@ -157,6 +157,14 @@ font-size: 14px;
 
 }
 
+span.highlighted {
+  color:#679aca;
+}
+
+.indent {
+  padding-left:20px;
+}
+
 .month-num {
 font-size: 54px;
 }
