@@ -156,7 +156,13 @@ font-size: 14px;
 
 span.highlighted {
   color:#679aca;
+  font-weight: bold;
+  font-size: 120%;
 }
+
+.source {color:#999;}
+
+.numbers {line-height: 200%;}
 
 .indent {
   padding-left:20px;
