@@ -156,13 +156,7 @@ font-size: 14px;
 
 span.highlighted {
   color:#679aca;
-  font-weight: bold;
-  font-size: 120%;
 }
-
-.source {color:#999;}
-
-.numbers {line-height: 200%;}
 
 .indent {
   padding-left:20px;
@@ -176,5 +170,45 @@ font-size: 54px;
 font-size: 36px;
 }
 }
+/* table styles */
+td {
+  padding: 5px;
+  border-bottom: 1px solid #CCC;
+}
+/* making the table act responsively */
+@media 
+only screen and (max-width: 500px) {
 
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  tr { border: 1px solid #ccc; }
+  
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 40%; 
+  }
+  
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
 
