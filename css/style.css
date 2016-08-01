@@ -91,15 +91,15 @@ H4 {
       font-family: "Montserrat", sans-serif;
       font-size:1em;
       margin-top:-10px;
-      font-style: italic;
-      font-weight:100;
-      color:#679ACA;
+      color:#999;
+      line-height: 160%;
   }
 
 p {
   font-family: "Lato", sans-serif;
   font-size:1.25em;
   line-height: 160%;
+  color:#999;
 }
 
 
