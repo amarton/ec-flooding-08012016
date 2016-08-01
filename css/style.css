@@ -134,15 +134,12 @@ font-family: "Montserrat", sans-serif;
 box-sizing: border-box;
 padding: 10px 0;
 margin: 0 15px;
+margin-top:10px;
 }
 .month-ranking.highlighted {
 background-color: #679aca;
 }
-@media (max-width: 700px) {
-.month-ranking {
-margin: 0 5px;
-}
-}
+
 @media (max-width: 600px) {
 .month-ranking {
 display: block;
