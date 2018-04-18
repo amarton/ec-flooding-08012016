@@ -1,2 +1,2 @@
-# template-general
-General template for data projects
+Ellicott City flooding 2016 graphics package for Baltimore Sun
+Based on general template
